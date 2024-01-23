@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    top:0;
+}
+.container{
+    width: 90%;
+    background: black;
+    margin: auto;
+}
+/* ========Header section start==== */
+.bbc-header{
+    width: 100%;
+    height: 60px;
+    background: black;
+}
+.container .main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+.container .main-header .logo-section{
+    background: pink;    ;
+    width: 19%;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+.logo-section .logo-text{
+ width: 40%;
+ background: black;
+ display: flex;
+ justify-content: space-between;   
+ line-height: 40px;
+}
+.logo-text .bbox{
+    width: 31%;
+    background: white;
+    color: black;
+    text-align: center;   
+    line-height:50px;
+
+}
+.logo-section.account{
+    width: 55%;
+    background: pink;
+    font-family: sans-serif;
+    color: white;
+}
+.menu{
+    background: blue;
+    width: 59%;
+    height: 40px;
+}
+.search{
+    background: green;
+    height: 40px;
+    width: 14%;
+}
+/* ======Header section start======= */

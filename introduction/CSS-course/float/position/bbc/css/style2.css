@@ -1,0 +1,432 @@
+body{
+    margin:0px;
+    padding: 0px;
+    top: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+/* Header section start */
+.bbc-header{
+    width: 100%;
+    height: 60px;
+    background: black;
+}
+.bbc-header-container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo
+{
+ width:19%;
+height: 40px;
+background: black;
+display: flex;
+justify-content: space-between;
+}
+.logo .logo-text{
+    width: 40%;
+line-height: 40px;
+display: flex;
+justify-content: space-between;
+}
+.logo .logo-text .bbox{
+    width: 31%;
+    background: white;
+    color:black;
+    text-align:center;
+    font-family: sans-serif;
+font-size: 30px;
+font-weight: bold;
+cursor: pointer;
+
+}
+
+.logo .account{
+    width: 50%;
+    background: black;
+    line-height: 40px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+
+}
+.logo .account:hover{
+    border-bottom: 1.5px solid white
+}
+.logo .account span{
+    font-size: 16px;
+
+}
+
+.menu
+{
+    width:64%;
+height: 35px;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+.menu ul li {
+    min-width: 100px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+.search
+{
+    width:14%;
+height: 40px;
+background: black;
+
+display: flex;
+
+
+}
+.search .sleft{
+    width: 75%;
+    background: white;
+    line-height: 40px;
+}
+.search input{
+    width:  95%;
+    height: 35px;
+}
+.search .sright{
+    width: 25%;
+  
+    line-height: 40px;
+}
+.search button{
+    width: 100%;
+    background: black;
+    height: 42px;
+    color: white;
+    text-align: center;
+    
+
+
+}
+
+/* Header section end */
+/*news banner*/
+.banner-section{
+    width: 100%;
+    height: 500px;
+    /* background: red; */
+    margin-top: 10px;
+}
+.banner-section .banner-title{
+    display: flex;
+    justify-content: space-between;
+    /* background: blue; */
+    height: 60px;
+    align-items: center;
+}
+.banner-section .banner-title h1{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    
+}
+.banner-container{
+    display: flex;
+}
+
+
+ .banner-left{
+    width: 49%;
+    height: 100%;
+    /* background: green; */
+    position: relative;
+  
+   display: flex;
+   
+    
+}
+
+.banner-left img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+.banner-left img:hover{
+    opacity: 1;
+
+}
+.banner-left .banner-description{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    /* background: orange; */
+    width: 90%;
+    left: 5%;
+}
+.box1{
+    background: black;
+    height: 180px;
+    width: 300px;
+    margin-left: 20px;
+    
+}
+.box2{
+    background: blue;
+    height: 180px;
+    width: 300px;
+    margin-left: 20px;
+
+}
+.container1{
+    display: flex;
+    width: 600px;
+    background: yellow;
+   
+    
+}
+
+
+
+/*end news banner*/
+.banner-news{
+    height: 50px;
+    background: white;
+    padding-left: 80px;
+
+}
+.container2{
+    width: 90%;
+    margin: auto;
+    background: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box2-1{
+    width: 455px;
+    height: 400px;
+    background: white;
+    
+}
+.box2-1 img{
+    width: 455px;
+    height: 300px;
+    opacity: 0.7;
+}
+.box2-1 img:hover{
+    opacity: 1;
+
+}
+.box2-2{
+    width: 455px;
+    height: 400px;
+    background: white;
+    
+}
+.box2-2 img{
+    width: 455px;
+    height: 300px;
+    opacity: 0.7;
+}
+.box2-2 img:hover{
+    opacity: 1;
+
+}
+.box2-3{
+    width: 455px;
+    height: 400px;
+    background: white;
+    
+}
+.box2-3 img{
+    width: 455px;
+    height: 300px;
+    opacity: 0.7;
+}
+.box2-3 img:hover{
+    opacity: 1;
+
+}
+/*----Sport----*/
+.banner-sport{
+    height: 50px;
+    background: white;
+    padding-left: 80px;
+
+}
+.container3{
+    width: 90%;
+    margin: auto;
+    background: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box3-1{
+    width: 455px;
+    height: 400px;
+    background: white;
+    
+}
+.box3-1 img{
+    width: 455px;
+    height: 300px;
+    opacity: 0.7;
+}
+.box3-1 img:hover{
+    opacity: 1;
+
+}
+.box3-2{
+    width: 455px;
+    height: 400px;
+    background: white;
+    
+}
+.box3-2 img{
+    width: 455px;
+    height: 300px;
+    opacity: 0.7;
+}
+.box3-2 img:hover{
+    opacity: 1;
+
+}
+.box3-3{
+    width: 455px;
+    height: 400px;
+    background: white;
+    
+}
+.box3-3 img{
+    width: 455px;
+    height: 300px;
+    opacity: 0.7;
+}
+.box3-3 img:hover{
+    opacity: 1;
+
+}
+.container4{
+    width: 100%;
+    height: 400px;
+    
+   
+    
+   
+
+
+}
+.container4 img{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+   
+    
+  
+}
+.box4-1{
+    width: 455px;
+    height: 400px;
+    background: white;
+    position: relative;
+    top: 60px;
+    left: 70px;
+    
+
+    
+    
+}
+
+
+.box4-1 img{
+    width: 100%;
+    height: 300px;
+  position: relative;
+}
+/*Asia news*/
+.banner-asia{
+    height: 50px;
+    background: white;
+    padding-left: 80px;
+    margin-top: 150px;
+}
+.container5{
+
+width: 90%;
+    margin: auto;
+    background: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.box5-1{
+    width: 300px;
+    height: 400px;
+    background: white;
+    
+}
+.box5-1 img{
+    width: 100%;
+    height: 300px;
+}
+.box5-2{
+    width: 300px;
+    height: 400px;
+    background: white;
+    
+}
+.box5-2 img{
+    width: 100%;
+    height: 300px;
+}
+.box5-3{
+    width: 300px;
+    height: 400px;
+    background: white;
+    
+}
+.box5-3 img{
+    width: 100%;
+    height: 300px;
+}
+.box5-4{
+    width: 300px;
+    height: 400px;
+    background: white;
+    
+}
+.box5-4 img{
+    width: 100%;
+    height: 300px;
+}
+/*Editors choice*/
+.container6{
+   
+    width: 100%;
+ 
+    background: rgb(77, 75, 75);
+    height: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-editor{
+    margin-left: 80px;
+    width: 100%;
+    height: 40px;
+    background: green;
+}
